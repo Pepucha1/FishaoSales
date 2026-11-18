@@ -1,0 +1,73 @@
+name: Fishao ceny
+
+on:
+  schedule:
+    - cron: '0 7 * * *'        # kazdy den 7:00 UTC (8:00 v zime, 9:00 v lete)
+  workflow_dispatch:            # rucni spusteni z karty Actions
+  push:                         # po uprave vzhledu/skriptu jen prepocitat stranku
+    branches: [main]
+    paths:
+      - 'sablona.html'
+      - 'fishao-ceny.ps1'
+      - 'nazvy-cz.csv'
+      - 'oblasti.csv'
+      - '.github/workflows/ceny.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: fishao-ceny
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sber cen a report
+        shell: powershell
+        run: |
+          if ('${{ github.event_name }}' -eq 'push') {
+            powershell -NoProfile -ExecutionPolicy Bypass -File fishao-ceny.ps1 -JenReport
+          } else {
+            powershell -NoProfile -ExecutionPolicy Bypass -File fishao-ceny.ps1
+          }
+          if ($LASTEXITCODE) { Get-Content log.txt; exit 1 }
+
+      - name: Ulozit nasbirana data do repozitare
+        if: github.event_name != 'push'
+        shell: powershell
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ceny.csv ryby.csv
+          git diff --cached --quiet
+          if ($LASTEXITCODE) {
+            git commit -m "Ceny $(Get-Date -Format 'yyyy-MM-dd')"
+            git push
+          }
+          exit 0
+
+      - name: Pripravit web
+        shell: powershell
+        run: |
+          New-Item -ItemType Directory -Force _site | Out-Null
+          Copy-Item prehled.html _site/index.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

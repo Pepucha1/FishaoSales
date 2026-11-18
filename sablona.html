@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fishao ceny</title>
+<style>
+:root{--bg:#f6f8fb;--card:#fff;--fg:#1d2733;--muted:#6b7785;--line:#e3e8ef;--up:#1a8f4c;--down:#c7362f;--acc:#2f7fc1;--upbg:#e3f5ea;--downbg:#fbe6e4}
+@media (prefers-color-scheme:dark){:root{--bg:#12161c;--card:#1a2029;--fg:#e4e9f0;--muted:#8d99a8;--line:#2a323e;--up:#4cc38a;--down:#ef6b62;--acc:#6aaee8;--upbg:#173326;--downbg:#3a1c1b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 system-ui,Segoe UI,sans-serif}
+main{max-width:1200px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--muted);margin-bottom:16px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;align-items:center}
+input,select{font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg)}
+input[type=search]{flex:1;min-width:180px}
+.note{color:var(--muted);font-size:12.5px;margin:0 0 12px}
+.wrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;min-width:980px}
+th,td{padding:7px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th{position:sticky;top:0;background:var(--card);cursor:pointer;user-select:none;font-weight:600;color:var(--muted);font-size:12.5px}
+th:hover{color:var(--fg)} th.sorted{color:var(--acc)}
+td:nth-child(1),th:nth-child(1),td:nth-child(2),th:nth-child(2),td:nth-child(3),th:nth-child(3){text-align:left}
+td.area{white-space:normal;max-width:190px;font-size:12.5px;color:var(--muted)}
+tr:hover td{background:color-mix(in srgb,var(--acc) 6%,transparent)}
+a{color:inherit;text-decoration:none} a:hover{color:var(--acc)}
+.stars{color:#d9a400;letter-spacing:-1px}
+.pill{display:inline-block;min-width:62px;padding:2px 8px;border-radius:999px;font-weight:600;text-align:center}
+.pos{color:var(--up);background:var(--upbg)} .neg{color:var(--down);background:var(--downbg)} .zero{color:var(--muted)}
+.muted{color:var(--muted)}
+.en{display:block;color:var(--muted);font-size:11.5px;line-height:1.2;font-weight:400}
+a.fish{display:flex;align-items:center;gap:10px}
+a.fish img{width:64px;height:28px;object-fit:contain;flex:none}
+#zoomBox{display:flex;align-items:center;gap:6px;margin-left:auto;color:var(--muted)}
+#zoomBox button{font:inherit;width:32px;height:32px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);cursor:pointer}
+#zoomBox input{width:110px}
+#zoomVal{min-width:44px;text-align:right}
+.range{display:inline-block;width:80px;height:6px;background:var(--line);border-radius:3px;position:relative;vertical-align:middle}
+.range i{position:absolute;top:-3px;width:4px;height:12px;border-radius:2px;background:var(--acc)}
+svg.spark{vertical-align:middle}
+.old td{opacity:.5}
+</style>
+</head>
+<body>
+<main>
+<h1>Fishao – ceny ryb vs. průměr</h1>
+<div class="sub">Poslední data: <b>{{LAST}}</b> · nasbíráno dní: <b>{{DAYS}}</b> · vygenerováno {{GEN}}</div>
+<div class="bar">
+  <input type="search" id="q" placeholder="Hledat rybu (česky i anglicky)…">
+  <select id="stars"><option value="">Všechny rarity</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+  <select id="area"><option value="">Všechny oblasti</option></select>
+  <select id="filt"><option value="">Vše</option><option value="up">Nad průměrem (prodávat)</option><option value="down">Pod průměrem (držet)</option></select>
+  <span id="zoomBox" title="Velikost stránky">Velikost
+    <button type="button" id="zoomOut" aria-label="Zmenšit">−</button>
+    <input type="range" id="zoom" min="70" max="250" step="10" value="100" aria-label="Velikost stránky">
+    <button type="button" id="zoomIn" aria-label="Zvětšit">+</button>
+    <span id="zoomVal">100 %</span>
+  </span>
+</div>
+<p class="note">„vs. průměr“ = o kolik % je dnešní cena nad/pod průměrem všech nasbíraných dní. „σ“ = kolik směrodatných odchylek je to od průměru (|σ| ≥ 2 je výjimečné). „Rozpětí“ ukazuje, kde je dnešní cena mezi minimem a maximem. Statistika dává smysl až po pár týdnech sběru.</p>
+<div class="wrap"><table>
+<thead><tr>
+<th data-k="name">Ryba</th><th data-k="stars">Rarita</th><th data-k="areaText">Oblast</th><th data-k="price">Dnes</th><th data-k="avg">Průměr</th><th data-k="avg30">Průměr 30 d</th>
+<th data-k="diff">vs. průměr</th><th data-k="z">σ</th><th data-k="min">Min</th><th data-k="max">Max</th><th data-k="pos">Rozpětí</th><th data-k="wikiChange">vs. včera</th><th data-k="days">Dní</th><th>Vývoj</th>
+</tr></thead>
+<tbody id="tb"></tbody>
+</table></div>
+<footer class="note" style="margin-top:16px">Neoficiální fanouškovská stránka. Ceny, názvy a obrázky ryb pocházejí z <a href="https://www.fishao.net/wiki" target="_blank" style="text-decoration:underline">Fishao Wiki</a> a patří hře Fishao. Data se aktualizují jednou denně.</footer>
+</main>
+<script>
+const DATA = /*DATA*/null || [];
+DATA.forEach(d => { d.areas = [].concat(d.areas || []); d.areaText = d.areas.join(', '); d.pos = d.max > d.min ? (d.price - d.min) / (d.max - d.min) : 0.5; d.wikiChange = d.wikiChange === '' || d.wikiChange == null ? null : +d.wikiChange; });
+let key = 'diff', dir = -1;
+const fmt = n => n == null ? '–' : Math.round(n).toLocaleString('cs-CZ');
+const pct = (n, sign = true) => n == null ? '–' : (n > 0 && sign ? '+' : '') + n.toLocaleString('cs-CZ', {maximumFractionDigits: 1}) + ' %';
+const cls = n => n == null || Math.abs(n) < 0.05 ? 'zero' : n > 0 ? 'pos' : 'neg';
+function spark(h) {
+  if (!h || h.length < 2) return '';
+  const w = 90, ht = 22, mn = Math.min(...h), mx = Math.max(...h), r = mx - mn || 1;
+  const pts = h.map((v, i) => (i / (h.length - 1) * w).toFixed(1) + ',' + (ht - 2 - (v - mn) / r * (ht - 4)).toFixed(1)).join(' ');
+  return `<svg class="spark" width="${w}" height="${ht}"><polyline points="${pts}" fill="none" stroke="var(--acc)" stroke-width="1.5"/></svg>`;
+}
+function render() {
+  const q = document.getElementById('q').value.toLowerCase(), st = document.getElementById('stars').value, f = document.getElementById('filt').value, ar = document.getElementById('area').value;
+  const rows = DATA.filter(d => (!ar || d.areas.includes(ar)) &&(!q || d.name.toLowerCase().includes(q) || (d.en || '').toLowerCase().includes(q)) && (!st || d.stars == st) && (!f || (f == 'up' ? d.diff > 0 : d.diff < 0)))
+    .sort((a, b) => { const x = a[key], y = b[key]; if (x == null) return 1; if (y == null) return -1; return (typeof x == 'string' ? x.localeCompare(y, 'cs') : x - y) * dir; });
+  document.getElementById('tb').innerHTML = rows.map(d => `<tr class="${d.isCurrent ? '' : 'old'}">
+    <td><a class="fish" href="https://www.fishao.net/wiki/fish/${d.id}" target="_blank"><img src="https://www.fishao.net/images/fish/${d.id}.png" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><span>${d.name}${d.en && d.en != d.name ? `<span class="en">${d.en}</span>` : ''}</span></a></td>
+    <td class="stars">${'★'.repeat(d.stars)}</td>
+    <td class="area">${d.areaText || '–'}</td>
+    <td><b>${fmt(d.price)}</b></td><td>${fmt(d.avg)}</td><td>${fmt(d.avg30)}</td>
+    <td><span class="pill ${cls(d.diff)}">${pct(d.diff)}</span></td>
+    <td class="${cls(d.z)}">${d.z == null ? '–' : (d.z > 0 ? '+' : '') + d.z.toFixed(1)}</td>
+    <td class="muted">${fmt(d.min)}</td><td class="muted">${fmt(d.max)}</td>
+    <td><span class="range"><i style="left:calc(${(d.pos * 100).toFixed(0)}% - 2px)"></i></span></td>
+    <td class="${cls(d.wikiChange)}">${pct(d.wikiChange)}</td>
+    <td class="muted">${d.days}</td><td>${spark(d.hist)}</td></tr>`).join('');
+  document.querySelectorAll('th').forEach(th => th.classList.toggle('sorted', th.dataset.k == key));
+}
+document.querySelectorAll('th[data-k]').forEach(th => th.onclick = () => { const k = th.dataset.k; dir = key == k ? -dir : (k == 'name' ? 1 : -1); key = k; render(); });
+const areaSel = document.getElementById('area');
+[...new Set(DATA.flatMap(d => d.areas))].sort((a, b) => a.localeCompare(b, 'cs')).forEach(a => areaSel.add(new Option(a, a)));
+['q', 'stars', 'filt', 'area'].forEach(id => document.getElementById(id).oninput = render);
+render();
+
+// velikost stranky (pamatuje si posledni nastaveni)
+const zoomRange = document.getElementById('zoom');
+function setZoom(v) {
+  v = Math.min(250, Math.max(70, +v));
+  zoomRange.value = v;
+  document.querySelector('main').style.zoom = v / 100;
+  document.getElementById('zoomVal').textContent = v + ' %';
+  try { localStorage.setItem('fishaoZoom', v); } catch (e) {}
+}
+let z0 = 100; try { z0 = +localStorage.getItem('fishaoZoom') || 100; } catch (e) {}
+setZoom(z0);
+zoomRange.oninput = () => setZoom(zoomRange.value);
+document.getElementById('zoomOut').onclick = () => setZoom(+zoomRange.value - 10);
+document.getElementById('zoomIn').onclick = () => setZoom(+zoomRange.value + 10);
+</script>
+</body>
+</html>

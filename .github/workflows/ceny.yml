@@ -2,7 +2,7 @@ name: Fishao ceny
 
 on:
   schedule:
-    - cron: '0 7 * * *'        # kazdy den 7:00 UTC (8:00 v zime, 9:00 v lete)
+    - cron: '5 0 * * *'        # kazdy den 0:05 UTC = 5 min po prelomu dne ve Fishau (u nas 1:05 v zime, 2:05 v lete)
   workflow_dispatch:            # rucni spusteni z karty Actions
   push:                         # po uprave vzhledu/skriptu jen prepocitat stranku
     branches: [main]

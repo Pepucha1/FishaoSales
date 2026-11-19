@@ -613,3 +613,618 @@ date,id,name,stars,price,change
 2026-11-18,1201,"African Mottled Eel",5,655,-55
 2026-11-18,1202,"Blue Panchax",2,16,-4
 2026-11-18,1203,"Crocodile-tooth Pipefish",4,89,25
+2026-11-19,14,"Piranha",4,102,-9
+2026-11-19,15,"Arapaima",5,464,85
+2026-11-19,16,"Barbel",3,42,41
+2026-11-19,17,"Bitterling",2,8,-56
+2026-11-19,18,"Largemouth Bass",1,6,-3
+2026-11-19,20,"Bluegill",1,3,-12
+2026-11-19,22,"Blue Marlin",5,778,-39
+2026-11-19,28,"Common Carp",2,9,One of the most caught fresh water fish is the "Common Carp". The reason for this is that the Common Carp is famous for his strength and size.
+2026-11-19,32,"Wels Catfish",4,157,-1
+2026-11-19,33,"Beluga Sturgeon",5,273,-28
+2026-11-19,34,"Arctic Char",3,41,-35
+2026-11-19,35,"Cherry Salmon",2,34,19
+2026-11-19,36,"Coelacanth",5,249,-2
+2026-11-19,37,"Crucian Carp",1,5,-18
+2026-11-19,38,"Dab",1,16,54
+2026-11-19,40,"Common Dace",1,4,-15
+2026-11-19,41,"Golden Dorado",5,504,5
+2026-11-19,42,"Eel",3,23,-48
+2026-11-19,43,"Freshwater Goby",1,16,84
+2026-11-19,44,"Gar",4,137,-13
+2026-11-19,45,"Giant Snakehead",3,67,3
+2026-11-19,46,"Goldcarp",5,381,37
+2026-11-19,47,"Hammerhead Shark",4,193,-36
+2026-11-19,48,"Horse Mackerel",1,10,-6
+2026-11-19,49,"Chinook Salmon",3,130,12
+2026-11-19,50,"Ocean Sunfish",4,72,-42
+2026-11-19,51,"Yellow Perch",1,5,24
+2026-11-19,52,"Atlantic Bluefin Tuna",4,96,-6
+2026-11-19,54,"Olive Flounder",2,15,66
+2026-11-19,55,"Pale Chub",1,13,19
+2026-11-19,56,"Pond Smelt",3,49,-1
+2026-11-19,57,"Puffer Fish",1,4,-22
+2026-11-19,58,"Rainbow Trout",2,10,-36
+2026-11-19,59,"Red Snapper",2,14,37
+2026-11-19,60,"Common Salmon",1,6,7
+2026-11-19,61,"Sea Bass",1,4,50
+2026-11-19,62,"Shark",5,525,54
+2026-11-19,63,"Pike",4,120,-13
+2026-11-19,64,"Bream",2,11,12
+2026-11-19,65,"Orangespotted Sunfish",4,148,28
+2026-11-19,66,"Tench",2,28,-27
+2026-11-19,67,"Black Acara",3,25,-20
+2026-11-19,68,"Spotted Sorubim",3,43,The Spotted Sorubim is an extremely aggressive fresh water fish. He is seen most often in rivers and is a true monster fish.
+
+2026-11-19,69,"Electric Eel",5,1236,33
+2026-11-19,70,"Blackfin Pearlfish",2,14,-4
+2026-11-19,71,"Marbled Headstander",1,6,82
+2026-11-19,72,"Pike Cichlid",1,4,-36
+2026-11-19,73,"Sergeant Major",2,16,21
+2026-11-19,74,"Honeycomb Cowfish",3,23,-7
+2026-11-19,75,"Barracuda",4,107,-21
+2026-11-19,76,"Tarpon Atlantic",4,359,46
+2026-11-19,77,"Rainbow Runner",3,70,-47
+2026-11-19,80,"Pacuma Toadfish",4,147,117
+2026-11-19,81,"Leerfish",3,37,5
+2026-11-19,82,"Coral Hind",2,15,36
+2026-11-19,83,"Sardinella",1,4,-32
+2026-11-19,84,"Kaluga Sturgeon",5,669,-12
+2026-11-19,85,"Queen Angelfish",3,54,7
+2026-11-19,86,"Blue Striped Grunt",1,3,-44
+2026-11-19,87,"Nassau Grouper",3,46,79
+2026-11-19,88,"French Angelfish",4,142,-11
+2026-11-19,89,"Wenchman",2,33,5
+2026-11-19,90,"Sargassum Triggerfish",3,43,-10
+2026-11-19,91,"Pearly Razorfish",2,8,-35
+2026-11-19,92,"Bigeye Scad",1,6,27
+2026-11-19,93,"Ariidae",4,137,11
+2026-11-19,94,"Livingston's Cichlid",2,14,-19
+2026-11-19,95,"Giant Gourami",4,228,-27
+2026-11-19,96,"Golden Arowana",4,100,38
+2026-11-19,97,"North African Catfish",3,69,3
+2026-11-19,98,"Elongate Tigerfish",3,66,-9
+2026-11-19,99,"Cornish Jack",5,363,-34
+2026-11-19,100,"Nile Tilapia",1,4,-39
+2026-11-19,101,"African Butter Catfish",2,20,37
+2026-11-19,102,"Clownfish",2,18,56
+2026-11-19,105,"Common Rudd",1,8,23
+2026-11-19,107,"Nile Perch",4,197,29
+2026-11-19,108,"Walleye",3,28,-19
+2026-11-19,109,"Peacock Bass",3,34,-27
+2026-11-19,110,"Largemouth Yellowfish",3,90,-8
+2026-11-19,111,"Freshwater Drum",3,62,11
+2026-11-19,112,"Clown Featherback",3,75,23
+2026-11-19,113,"Chinese False Gudgeon",1,6,-41
+2026-11-19,114,"Horseface Loach",2,34,-8
+2026-11-19,115,"Chinese Sturgeon",4,198,12
+2026-11-19,116,"Catla",2,40,114
+2026-11-19,117,"Elephantfish",4,488,10
+2026-11-19,118,"Opah",4,85,-47
+2026-11-19,119,"Silver Scabbardfish",4,145,44
+2026-11-19,120,"Thicklip Grey Mullet",2,16,12
+2026-11-19,121,"Atlantic Herring",1,3,-13
+2026-11-19,122,"Tope Shark",3,49,10
+2026-11-19,123,"European Conger",5,293,-10
+2026-11-19,124,"Lesser Weever",1,3,13
+2026-11-19,125,"Haddock",2,14,-12
+2026-11-19,126,"Goldsilk Bream",2,36,10
+2026-11-19,127,"Electric Catfish",4,403,-10
+2026-11-19,128,"Brown Trout",1,5,11
+2026-11-19,129,"Alligator Gar",5,926,-13
+2026-11-19,130,"Atlantic Wolffish",5,1196,54
+2026-11-19,131,"Bigmouth Buffalo",3,35,-18
+2026-11-19,132,"Grayling",2,15,72
+2026-11-19,133,"Flame Angelfish",3,28,-22
+2026-11-19,134,"Golden Perch",3,130,-33
+2026-11-19,135,"Goliath Tigerfish",5,525,87
+2026-11-19,136,"Green Sawfish",5,247,-39
+2026-11-19,137,"Lake Sturgeon",5,448,-15
+2026-11-19,138,"Lionhead Goldfish",5,463,42
+2026-11-19,139,"Murray Cod",3,136,-25
+2026-11-19,140,"Oscar",4,88,-41
+2026-11-19,141,"Painted Comber",2,16,12
+2026-11-19,142,"Payara",5,540,29
+2026-11-19,143,"Pink Salmon",4,102,15
+2026-11-19,144,"Sailfish",5,1156,35
+2026-11-19,145,"Sleepy Cod",2,39,20
+2026-11-19,146,"Sockeye Salmon",4,145,45
+2026-11-19,147,"Tailspot Ctenopoma",2,76,9
+2026-11-19,148,"Tambaqui",2,46,-36
+2026-11-19,149,"Weever Fish",3,43,21
+2026-11-19,150,"Golden Trout",5,355,-18
+2026-11-19,151,"Brook Trout",1,3,-1
+2026-11-19,152,"Tiger Trout",5,432,-16
+2026-11-19,154,"Common Octopus",4,393,98
+2026-11-19,155,"Occelate River Stingray",4,120,3
+2026-11-19,156,"Deepwater Sculpin",3,35,-19
+2026-11-19,157,"Mad Barb",3,96,3
+2026-11-19,158,"Siamese Tigerfish",3,56,-18
+2026-11-19,159,"Sailray",3,25,-1
+2026-11-19,160,"European Flounder",2,11,-3
+2026-11-19,161,"Eastern Mudminnow",1,5,-17
+2026-11-19,162,"European Perch",1,5,-3
+2026-11-19,164,"Goldfish",3,48,1
+2026-11-19,165,"European Chub",3,28,-21
+2026-11-19,166,"Zander",4,69,2
+2026-11-19,167,"Black Bullhead",2,13,-17
+2026-11-19,168,"Barreleye",5,291,-4
+2026-11-19,169,"Red Scorpionfish",5,414,-17
+2026-11-19,170,"Dolly Varden",3,37,44
+2026-11-19,171,"Suckermouth Catfish",4,73,-35
+2026-11-19,172,"Paddlefish",5,291,-42
+2026-11-19,173,"Lionfish",5,492,63
+2026-11-19,174,"Smooth Trunkfish",2,20,28
+2026-11-19,175,"Rainbow Parrotfish",4,120,-25
+2026-11-19,176,"Humpback Anglerfish",5,445,34
+2026-11-19,177,"Mekong Giant Catfish",4,97,-29
+2026-11-19,179,"Rock Bass",2,9,-14
+2026-11-19,180,"Mandarinfish",5,486,106
+2026-11-19,181,"Smallmouth Bass",2,11,-35
+2026-11-19,182,"Spotted Bass",2,15,-15
+2026-11-19,183,"Common Dolphinfish",4,160,48
+2026-11-19,184,"Flying Fish",2,30,-19
+2026-11-19,185,"Giant Moray",4,132,65
+2026-11-19,187,"Bagarius",4,109,-29
+2026-11-19,188,"Freshwater Hatchetfish",1,6,99
+2026-11-19,189,"Black Crappy",1,4,-33
+2026-11-19,190,"Common Bleak",1,3,-51
+2026-11-19,191,"Guppy",1,6,50
+2026-11-19,192,"Giant Barb",4,96,28
+2026-11-19,193,"Discus",2,20,39
+2026-11-19,194,"Bagrus Bajad",2,15,16
+2026-11-19,195,"Black Buffalo",2,10,-41
+2026-11-19,196,"Midas Cichlid",4,143,13
+2026-11-19,197,"Danube Salmon",5,352,60
+2026-11-19,198,"Rainbow Darter",2,10,-49
+2026-11-19,199,"Marbled Lungfish",3,46,47
+2026-11-19,200,"African Knifefish",3,43,90
+2026-11-19,201,"Burbot",3,30,-13
+2026-11-19,202,"Ripsaw Catfish",3,50,67
+2026-11-19,203,"Vandellia",4,85,-33
+2026-11-19,204,"Tiger Muskellunge",4,145,28
+2026-11-19,205,"Bull Shark",5,361,-28
+2026-11-19,206,"Giant Freshwater Stingray",5,237,-48
+2026-11-19,207,"Texas Cichlid",2,16,71
+2026-11-19,208,"Flathead Catfish",3,44,84
+2026-11-19,209,"Bull Trout",3,32,-13
+2026-11-19,210,"Apache Trout",5,343,-36
+2026-11-19,211,"Blue Catfish",4,140,13
+2026-11-19,212,"Alpine Bullhead",1,3,-42
+2026-11-19,213,"Zingel Streber",2,15,16
+2026-11-19,214,"Pumpkinseed Sunfish",2,19,31
+2026-11-19,215,"Fourhorned Sculpin",3,30,15
+2026-11-19,216,"Red-Striped Rasbora",4,126,38
+2026-11-19,217,"Striped Headstander",2,8,-56
+2026-11-19,218,"Blue Lyretail",2,13,-31
+2026-11-19,219,"Whitebarred Catfish",3,48,22
+2026-11-19,220,"Kuhli Loach",4,84,3
+2026-11-19,221,"Freshwater Butterflyfish",3,48,21
+2026-11-19,222,"Fire Eel",5,528,2
+2026-11-19,223,"Amazon Leaf Fish",4,121,27
+2026-11-19,224,"Bowfin",3,45,6
+2026-11-19,225,"White Sturgeon",5,328,44
+2026-11-19,226,"Hucho Taimen",4,112,7
+2026-11-19,227,"Giant Oarfish",5,251,-47
+2026-11-19,228,"Dwarf Pufferfish",4,89,15
+2026-11-19,229,"Rainbowfish",4,149,31
+2026-11-19,230,"Paroon Shark",5,282,-16
+2026-11-19,231,"Silver Arowana",5,405,-24
+2026-11-19,232,"Asian Arowana",5,359,-13
+2026-11-19,233,"Siamese Fighting Fish",3,48,67
+2026-11-19,234,"Congo Pufferfish",2,16,-11
+2026-11-19,235,"Hairy Pufferfish",2,9,-36
+2026-11-19,236,"Chaca Chaca Catfish",4,154,112
+2026-11-19,237,"Freshwater Lionfish",5,313,-29
+2026-11-19,238,"Sharpnose Sevengill Shark",3,27,-17
+2026-11-19,239,"Frilled Shark",5,974,-25
+2026-11-19,240,"Bramble Shark",5,295,-14
+2026-11-19,241,"Dogfish Shark",4,372,6
+2026-11-19,242,"Prickly Shark",4,112,-11
+2026-11-19,243,"Angel Shark",5,249,13
+2026-11-19,244,"Horn Shark",4,139,-9
+2026-11-19,245,"Spotted Wobbegong",3,34,9
+2026-11-19,246,"Zebra Shark",4,65,-18
+2026-11-19,247,"Nurse Shark",4,126,8
+2026-11-19,248,"Whale Shark",5,280,-15
+2026-11-19,249,"Barbeled Houndshark",3,120,7
+2026-11-19,250,"Gollumshark",3,58,-42
+2026-11-19,251,"Coral Catshark",3,36,27
+2026-11-19,252,"Blue Shark",4,360,47
+2026-11-19,253,"Tiger Shark",5,699,-47
+2026-11-19,254,"Goblin Shark",5,403,72
+2026-11-19,255,"Basking Shark",5,526,21
+2026-11-19,256,"Megamouth Shark",5,326,-32
+2026-11-19,257,"Thresher Shark",5,449,25
+2026-11-19,258,"Longfin Mako Shark",4,134,15
+2026-11-19,259,"Great White Shark",5,613,-8
+2026-11-19,260,"Lake Trout",4,120,-6
+2026-11-19,261,"Chinese Paddlefish",5,552,23
+2026-11-19,262,"Albino Catfish",5,1255,20
+2026-11-19,263,"Silver Carp",5,523,11
+2026-11-19,264,"South American Lungfish",4,69,-15
+2026-11-19,265,"Ballan Wrasse",3,108,9
+2026-11-19,266,"Bowmouth Guitarfish",4,143,-8
+2026-11-19,267,"Giant Grouper",4,106,11
+2026-11-19,268,"Halibut",5,1277,16
+2026-11-19,269,"Humphead Parrotfish",4,116,61
+2026-11-19,270,"Spotted Handfish",5,338,-31
+2026-11-19,271,"Leafy Seadragon",5,461,27
+2026-11-19,272,"Muraena Augusti",4,124,73
+2026-11-19,273,"Persian Sturgeon",5,673,22
+2026-11-19,274,"Queen Triggerfish",3,51,53
+2026-11-19,275,"Starry Sturgeon",5,307,-42
+2026-11-19,276,"European Sea Sturgeon",5,651,-36
+2026-11-19,277,"Red-Tail Golden Arowana",5,384,34
+2026-11-19,278,"Black Arowana",5,449,-11
+2026-11-19,279,"African Arowana",3,25,-34
+2026-11-19,280,"Green Arowana",4,144,107
+2026-11-19,281,"Green Red Arowana",5,357,0
+2026-11-19,282,"Yellow-Tail Arowana",5,233,-25
+2026-11-19,283,"Asian Green Arowana",5,868,0
+2026-11-19,284,"Platinum Golden Arowana",5,311,-20
+2026-11-19,285,"Jardini Arowana",4,153,0
+2026-11-19,286,"Blue Malayan Arowana",5,388,-16
+2026-11-19,287,"Red Bellied Pacu",4,79,0
+2026-11-19,300,"Long-nosed Chimaera",5,243,-28
+2026-11-19,301,"Spearfish Remora",2,14,-32
+2026-11-19,302,"Scrawled Filefish",3,32,-22
+2026-11-19,303,"Treefish",3,44,53
+2026-11-19,304,"RibbonEel",4,119,-19
+2026-11-19,305,"Giant Oceanic Manta Ray",5,521,42
+2026-11-19,306,"Alabama Sturgeon",5,474,96
+2026-11-19,307,"Giant Squid",5,274,-38
+2026-11-19,308,"Swordfish",5,227,-29
+2026-11-19,309,"Gyrodus",3,35,-33
+2026-11-19,310,"Acanthodes",2,18,80
+2026-11-19,311,"Antiarchi",2,14,-7
+2026-11-19,312,"Dunkleosteus",5,414,-20
+2026-11-19,313,"Xiphactinus",4,87,-9
+2026-11-19,314,"Titanichthys",5,337,-21
+2026-11-19,315,"Thelodus",2,20,137
+2026-11-19,316,"Osteolepis",4,78,-26
+2026-11-19,317,"Pteraspis",5,461,-3
+2026-11-19,318,"Platysomus",2,19,97
+2026-11-19,319,"Cheirolepis",4,115,1
+2026-11-19,320,"Materpiscis",3,23,-57
+2026-11-19,321,"Macropoma",4,106,-14
+2026-11-19,322,"Leedsichthys",5,476,4
+2026-11-19,323,"Hyneria",3,28,-18
+2026-11-19,324,"Helicoprion",5,384,1
+2026-11-19,325,"Megalodon",5,507,97
+2026-11-19,326,"Arandaspis",3,31,1
+2026-11-19,327,"Aspidorhynchus",4,129,-15
+2026-11-19,328,"Cladoselache",4,73,-53
+2026-11-19,329,"Cheiracanthus",3,37,-7
+2026-11-19,330,"Cobelodus",5,291,-39
+2026-11-19,331,"Coccosteus",3,49,80
+2026-11-19,332,"Dapedium",3,37,62
+2026-11-19,333,"Drepanaspis",4,73,-30
+2026-11-19,334,"Enchodus",4,134,47
+2026-11-19,335,"Gyrosteus",5,322,-25
+2026-11-19,336,"Moythomasia",2,20,37
+2026-11-19,337,"Orthacanthus",5,399,-21
+2026-11-19,338,"Pharyngolepis",2,12,-37
+2026-11-19,339,"Pikaia",3,51,76
+2026-11-19,340,"Saurichthys",5,299,-39
+2026-11-19,341,"Semionotus",4,127,16
+2026-11-19,342,"Stethacanthus",5,376,57
+2026-11-19,343,"Xenacanthus",4,150,13
+2026-11-19,400,"Blue Tang",1,3,-10
+2026-11-19,401,"Hogfish",2,18,11
+2026-11-19,402,"Trumpetfish",4,155,132
+2026-11-19,403,"Bluehead Wrasse",1,5,14
+2026-11-19,404,"Spanish Hogfish",2,17,-6
+2026-11-19,405,"Queen Parrotfish",3,32,18
+2026-11-19,406,"Blackbar Soldierfish",3,36,-7
+2026-11-19,407,"Sand Tilefish",1,3,-53
+2026-11-19,408,"Yellowhead Wrasse",2,11,-9
+2026-11-19,409,"Glasseye Snapper",1,6,11
+2026-11-19,410,"Yellow Tang",3,27,-25
+2026-11-19,411,"Fantail Filefish",3,39,65
+2026-11-19,412,"Blue-spotted Grouper",2,13,-21
+2026-11-19,413,"Bird Wrasse",3,47,49
+2026-11-19,414,"Moorish Idol",4,128,-20
+2026-11-19,415,"Ornate Butterflyfish",2,8,-45
+2026-11-19,416,"Blue Parrotfish",4,151,76
+2026-11-19,417,"Picasso Triggerfish",3,30,-38
+2026-11-19,418,"Yellowtail Wrasse",2,10,-32
+2026-11-19,419,"Pinktail Triggerfish",3,38,49
+2026-11-19,420,"Bermuda Chub",2,12,46
+2026-11-19,421,"Banded Butterflyfish",2,20,52
+2026-11-19,422,"Peacock Flounder",4,119,34
+2026-11-19,423,"Rock Beauty",3,27,-35
+2026-11-19,424,"Spotted Eagle Ray",5,474,22
+2026-11-19,425,"Bigfin Reef Squid",3,35,-31
+2026-11-19,426,"Midnight Parrotfish",4,68,-51
+2026-11-19,427,"Palometa",3,43,62
+2026-11-19,428,"Titan Triggerfish",3,34,-36
+2026-11-19,429,"Bluestripe Snapper",2,20,64
+2026-11-19,430,"Phantom Bannerfish",1,3,-14
+2026-11-19,431,"Oceanic Whitetip Shark",4,114,-24
+2026-11-19,432,"Sandbar Shark",2,19,126
+2026-11-19,433,"Spot-tail Shark",4,91,-28
+2026-11-19,434,"Cookiecutter Shark",3,41,-9
+2026-11-19,435,"Lemon Shark",3,54,61
+2026-11-19,436,"Milk Shark",2,13,-11
+2026-11-19,437,"Red-lipped batfish",5,458,80
+2026-11-19,438,"Orange-Banded Pipefish",5,273,-4
+2026-11-19,439,"Bluespine Unicornfish",2,15,-18
+2026-11-19,440,"Cylindrical lanternshark",5,389,-18
+2026-11-19,441,"Checkerboard Wrasse",5,266,-2
+2026-11-19,442,"Tiger Grouper",3,31,-21
+2026-11-19,443,"Fairy Basslet",3,51,-1
+2026-11-19,444,"Graysby",2,8,-28
+2026-11-19,445,"Longnose Butterfly",3,42,-2
+2026-11-19,446,"Bluefin Trevally",3,47,106
+2026-11-19,447,"Minute Leatherjacket",5,343,-2
+2026-11-19,448,"White-Spotted Damsel",3,40,-12
+2026-11-19,449,"Pennant Coralfish",3,28,9
+2026-11-19,450,"Mexican Hogfish",3,33,-39
+2026-11-19,451,"Whitespotted boxfish",4,135,10
+2026-11-19,452,"Black Triggerfish",3,40,40
+2026-11-19,453,"Blue Ring Angelfish",3,53,8
+2026-11-19,454,"Devils Hole Pupfish",5,497,36
+2026-11-19,455,"Redtail Catfish",3,30,23
+2026-11-19,456,"Roosterfish",3,25,-43
+2026-11-19,500,"Zebra Moray",3,43,-18
+2026-11-19,501,"Snowflake Moray",3,23,-42
+2026-11-19,502,"Green Moray",5,356,-21
+2026-11-19,503,"Spotted Moray",4,144,48
+2026-11-19,504,"Yellowmargin Moray",2,10,-25
+2026-11-19,505,"Leopard Moray",4,121,62
+2026-11-19,506,"Goldentail Moray",5,525,79
+2026-11-19,507,"Yellow-mouth Moray",1,4,-34
+2026-11-19,508,"Fangtooth Moray",4,125,-18
+2026-11-19,509,"Paint-Spotted Moray",4,65,-44
+2026-11-19,510,"Whitemouth Moray",2,19,7
+2026-11-19,511,"Dragon Moray",5,371,41
+2026-11-19,512,"Chain Moray",3,25,15
+2026-11-19,513,"Blackcheek Moray",3,45,32
+2026-11-19,514,"Viper Moray",5,340,16
+2026-11-19,515,"Yellowhead Moray",3,22,-48
+2026-11-19,516,"White-Eyed Moray",2,16,13
+2026-11-19,517,"Salpa Maggiore",5,294,-40
+2026-11-19,518,"French Grunt",3,48,0
+2026-11-19,519,"Harlequin Bass",3,36,28
+2026-11-19,520,"Schoolmaster Snapper",3,54,55
+2026-11-19,521,"Sand Diver",4,101,51
+2026-11-19,522,"Porkfish",3,29,-31
+2026-11-19,523,"Clown Frogfish",5,414,38
+2026-11-19,524,"Broomtail Wrasse",3,48,-4
+2026-11-19,525,"Mirror Carp",3,28,-26
+2026-11-19,526,"Coho Salmon",3,29,-8
+2026-11-19,527,"Long-finned Eel",4,107,-22
+2026-11-19,528,"Albino Alligator Gar",5,1298,-2
+2026-11-19,529,"Japanese Eel",4,269,-16
+2026-11-19,530,"Hybrid Striped Bass",4,139,41
+2026-11-19,531,"White Bass",1,3,-36
+2026-11-19,532,"Striped Bass",2,14,-42
+2026-11-19,533,"Long-snouted Lancetfish",5,494,60
+2026-11-19,600,"Grass Carp",3,24,-30
+2026-11-19,601,"Bighead Carp",4,132,-6
+2026-11-19,602,"Mrigal Carp",3,32,-25
+2026-11-19,603,"Black Sharkminnow",4,155,134
+2026-11-19,604,"Atlantic Needlefish",2,15,-20
+2026-11-19,605,"Gold Nugget Pleco",5,287,-9
+2026-11-19,606,"Senegal Bichir",4,146,82
+2026-11-19,607,"Piraíba Catfish",5,364,-7
+2026-11-19,608,"Mbu Pufferfish",1,3,-29
+2026-11-19,609,"Black Ghost Knifefish",4,137,-6
+2026-11-19,610,"Zebra Pleco",3,25,-38
+2026-11-19,611,"Corydoras Julii",2,14,33
+2026-11-19,612,"Wrestling Halfbeak",2,19,52
+2026-11-19,613,"Amur Pike",4,90,-43
+2026-11-19,614,"Ayu",3,42,78
+2026-11-19,615,"Clown Loach",2,8,-49
+2026-11-19,616,"Largetooth Sawfish",5,347,-28
+2026-11-19,617,"Black Molly",2,18,30
+2026-11-19,618,"White Crappie",2,10,-36
+2026-11-19,619,"Clown Killi",3,39,31
+2026-11-19,620,"Frontosa Cichlid",4,76,-46
+2026-11-19,621,"Tire Track Eel",4,136,69
+2026-11-19,700,"Cyclops Shark",5,382,68
+2026-11-19,701,"Pelican Eel",5,505,18
+2026-11-19,702,"Meadia Roseni",5,459,50
+2026-11-19,703,"Blobfish",5,258,-49
+2026-11-19,704,"Angler Monkfish",5,227,-43
+2026-11-19,705,"Stareater",5,351,28
+2026-11-19,706,"Sarcastic Fringehead",4,91,-36
+2026-11-19,707,"White-spotted Puffer",3,43,22
+2026-11-19,708,"Gold-spotted Rabbitfish",3,37,-32
+2026-11-19,709,"Tomato Clownfish",3,49,19
+2026-11-19,710,"Blue-Green Chromis",2,17,-5
+2026-11-19,711,"Potter's Angelfish",4,102,18
+2026-11-19,712,"Fiddler Ray",5,387,-6
+2026-11-19,713,"Longhorn Cowfish",4,79,-51
+2026-11-19,714,"Cortez Rainbow Wrasse",2,11,-12
+2026-11-19,715,"Black Dragonfish",5,495,8
+2026-11-19,716,"Orange-spotted Snakehead",4,65,-16
+2026-11-19,717,"Redfin Pickerel",4,125,9
+2026-11-19,718,"Grass Pickerel",4,135,-5
+2026-11-19,719,"Golden Pike",5,325,19
+2026-11-19,720,"Butterfly Cichlid",1,6,14
+2026-11-19,721,"Panther Grouper",4,79,-7
+2026-11-19,722,"Hound Needlefish",4,116,17
+2026-11-19,723,"Milkfish",3,51,-4
+2026-11-19,724,"Longnose Sawshark",3,31,30
+2026-11-19,725,"Malawi Eye Biter",3,43,-1
+2026-11-19,726,"Weedy Seadragon",5,233,-52
+2026-11-19,727,"Indian Glass Fish",2,13,-1
+2026-11-19,728,"Australian Ghostshark",3,48,13
+2026-11-19,729,"Humpback Batfish",4,84,-7
+2026-11-19,730,"Dragon Wrasse",2,20,52
+2026-11-19,731,"Red Indianfish",4,121,-14
+2026-11-19,732,"Deepsea Lizardfish",5,279,-34
+2026-11-19,733,"Black Alligator Gar",5,479,116
+2026-11-19,734,"Oriental Sweetlips",2,14,-28
+2026-11-19,735,"Elegant Firefish",2,9,-21
+2026-11-19,736,"Chevron Butterflyfish",3,45,67
+2026-11-19,737,"Lemonpeel Angelfish",1,4,-17
+2026-11-19,738,"Ocellated Pufferfish",2,8,-40
+2026-11-19,739,"Common Ponyfish",2,16,-14
+2026-11-19,740,"Neon Tetra",1,6,52
+2026-11-19,741,"Satanoperca",2,12,-42
+2026-11-19,742,"Pearl Danio",1,3,-36
+2026-11-19,743,"Giant Kokopu",5,389,33
+2026-11-19,744,"Amur Sturgeon",5,343,-30
+2026-11-19,745,"Giant Devil Ray",5,466,26
+2026-11-19,746,"Rusty Parrotfish",4,126,71
+2026-11-19,747,"Emperor Angelfish",3,22,-51
+2026-11-19,748,"Ornate Ghost Pipefish",4,158,49
+2026-11-19,749,"Crested Bullhead Shark",4,98,42
+2026-11-19,750,"Pink Frogfish",5,250,-9
+2026-11-19,751,"Pineapplefish",4,135,13
+2026-11-19,752,"Marine Betta",3,50,-5
+2026-11-19,753,"Northern Lampfish",4,112,16
+2026-11-19,754,"Moon Wrasse",2,16,-2
+2026-11-19,755,"Longnose Hawkfish",3,30,29
+2026-11-19,756,"Yellow Boxfish",4,103,-3
+2026-11-19,757,"Achilles Tang",2,8,-54
+2026-11-19,758,"Yangtze Sturgeon",5,235,-19
+2026-11-19,759,"Persian Carpet Sole",4,131,5
+2026-11-19,760,"Emperor Red Snapper",4,94,-42
+2026-11-19,761,"Basketfish",2,16,5
+2026-11-19,762,"Red-striped Goby",1,3,-49
+2026-11-19,763,"Siberian Sturgeon",5,359,6
+2026-11-19,764,"Shortnose Sturgeon",5,466,22
+2026-11-19,765,"Florida Gar",5,266,2
+2026-11-19,800,"Yellowfin Tuna",3,24,-39
+2026-11-19,801,"Bigeye Tuna",4,131,-15
+2026-11-19,802,"Pacific Bluefin Tuna",5,483,56
+2026-11-19,803,"Black Marlin",5,360,-17
+2026-11-19,804,"Striped Marlin",4,117,79
+2026-11-19,805,"White Marlin",4,80,-22
+2026-11-19,806,"Sharpfin Barracuda",2,12,-33
+2026-11-19,807,"Pelican Barracuda",3,51,95
+2026-11-19,808,"Yellowtail Barracuda",3,22,-41
+2026-11-19,809,"Bigeye Barracuda",3,42,-15
+2026-11-19,810,"Spotted Gar",5,498,11
+2026-11-19,811,"Betta Brownorum",1,4,-9
+2026-11-19,812,"Death Valley Pupfish",5,251,-52
+2026-11-19,813,"Spotted Pike-characin",3,37,-7
+2026-11-19,814,"Spikefin Goby",2,13,23
+2026-11-19,815,"Pacific Barracuda",4,140,-3
+2026-11-19,816,"Guachanche Barracuda",5,421,18
+2026-11-19,817,"Heller's Barracuda",3,22,-5
+2026-11-19,818,"Pickhandle Barracuda",4,145,11
+2026-11-19,819,"Australian Barracuda",4,85,-9
+2026-11-19,1001,"Smalltooth Sawfish",5,361,26
+2026-11-19,1002,"Common Sawfish",5,315,-6
+2026-11-19,1003,"Spotted Sicklefish",2,16,-18
+2026-11-19,1004,"Blind Cave Eel",5,392,53
+2026-11-19,1005,"Golden Trevally",4,155,13
+2026-11-19,1006,"Bonnethead Shark",4,141,-7
+2026-11-19,1007,"Winghead Shark",5,268,-29
+2026-11-19,1008,"Blue-bellied Night Wanderer",5,253,-36
+2026-11-19,1009,"American Barrelfish",4,113,38
+2026-11-19,1010,"Marcusenius Furcidens",5,300,-14
+2026-11-19,1011,"Red Phantom Tetra",3,50,6
+2026-11-19,1012,"Black Diamond Cichlid",5,222,-48
+2026-11-19,1013,"Piraya",4,127,87
+2026-11-19,1014,"Austrolebias Adloffi",2,18,-7
+2026-11-19,1100,"Candy Basslet",5,234,-44
+2026-11-19,1101,"Orangespotted Soapfish",5,435,-19
+2026-11-19,1102,"Garish Hind",5,311,-8
+2026-11-19,1103,"Masked Angelfish",5,512,11
+2026-11-19,1104,"Peppermint Angelfish",5,388,49
+2026-11-19,1105,"Albacore Tuna",4,79,-31
+2026-11-19,1106,"Southern Bluefin Tuna",5,465,-8
+2026-11-19,1107,"Blackfin Tuna",3,34,12
+2026-11-19,1108,"Longtail Tuna",3,22,-49
+2026-11-19,1109,"Bullet Tuna",3,42,83
+2026-11-19,1110,"Aphyonidae",5,476,-4
+2026-11-19,1111,"Grideye Fish",5,275,-26
+2026-11-19,1112,"Lavender Mbuna",5,598,59
+2026-11-19,1113,"Inlecypris Jayarami",5,1044,16
+2026-11-19,1114,"Isichthys Henryi",4,138,-11
+2026-11-19,1115,"Whitebar Eelpout",4,322,95
+2026-11-19,1116,"Blackfin Dartfish",2,9,-46
+2026-11-19,1117,"Gloved Snailfish",4,264,19
+2026-11-19,1118,"Pangio Mariarum",3,46,-10
+2026-11-19,1119,"Razorback Sucker",5,259,-33
+2026-11-19,1120,"Chilhuil Sea Catfish",4,310,17
+2026-11-19,1121,"Common Nase",1,4,-39
+2026-11-19,1122,"Common Roach",1,5,-22
+2026-11-19,1123,"Common Minnow",2,25,134
+2026-11-19,1124,"Atlantic Mackerel",3,65,-50
+2026-11-19,1125,"European Anchovy",1,14,43
+2026-11-19,1126,"European Sprat",2,19,83
+2026-11-19,1127,"Eurasian Ruffe",2,14,-4
+2026-11-19,1128,"Peled",3,40,18
+2026-11-19,1129,"Freshwater Angelfish",3,27,-40
+2026-11-19,1130,"Three-spined Stickleback",3,44,-15
+2026-11-19,1131,"Ruby Seadragon",5,475,63
+2026-11-19,1132,"Barramundi",5,429,27
+2026-11-19,1133,"Parachaenichthys charcoti",5,571,-58
+2026-11-19,1134,"Spinner Shark",4,152,106
+2026-11-19,1135,"Blacktip Reef Shark",3,31,-31
+2026-11-19,1136,"Kitefin Shark",3,26,-47
+2026-11-19,1137,"Indonesian Speckled Carpetshark",3,38,4
+2026-11-19,1138,"Sawback Angelshark",5,367,-8
+2026-11-19,1139,"Greater Blue-ringed Octopus",3,49,78
+2026-11-19,1140,"Leafscale Gulper Shark",4,87,-19
+2026-11-19,1141,"Dusky Shark",4,147,2
+2026-11-19,1142,"Banggai Cardinalfish",4,110,30
+2026-11-19,1143,"Blue Dot Jawfish",3,24,-40
+2026-11-19,1144,"Chinstrap Jawfish",2,17,-10
+2026-11-19,1145,"Gulf Signal Blenny",3,34,8
+2026-11-19,1146,"Red Irish lord",3,54,23
+2026-11-19,1147,"Broad-barred Goby",2,15,76
+2026-11-19,1148,"Twin-spot Goby",4,92,-11
+2026-11-19,1149,"Allis shad",2,19,8
+2026-11-19,1150,"Asp",3,38,-12
+2026-11-19,1151,"Sunbleak",2,16,92
+2026-11-19,1152,"Vimba Bream",3,23,-47
+2026-11-19,1153,"Stone Loach",2,13,17
+2026-11-19,1154,"Carcharocles chubutensis",5,473,-5
+2026-11-19,1155,"Cretoxyrhina",5,272,-28
+2026-11-19,1156,"Deltoptychius",4,119,56
+2026-11-19,1157,"Ischnacanthus",4,156,15
+2026-11-19,1158,"Ctenurella",3,32,-3
+2026-11-19,1159,"Astraspis",3,44,-17
+2026-11-19,1160,"Boreaspis",2,11,29
+2026-11-19,1161,"Dartmuthia",3,50,41
+2026-11-19,1162,"Doryaspis arctica",3,23,-27
+2026-11-19,1163,"Doryaspis nathorsti",3,43,-2
+2026-11-19,1164,"Parrot Cichlid",4,137,18
+2026-11-19,1165,"Jack Dempsey",4,100,-35
+2026-11-19,1166,"Guapote",5,381,-18
+2026-11-19,1167,"Jaguar Guapote",4,77,-3
+2026-11-19,1168,"Redhead Cichlid",3,29,15
+2026-11-19,1169,"Golden Cave Catfish",5,488,31
+2026-11-19,1170,"Pictus Catfish",3,24,-19
+2026-11-19,1171,"Giant Salmon Carp",5,730,-27
+2026-11-19,1172,"Bridled Leatherjacket",4,96,45
+2026-11-19,1173,"Risso's Smooth-head",4,332,5
+2026-11-19,1174,"Boulengerella Cuvieri",2,15,-12
+2026-11-19,1175,"Narrowhead Catshark",4,160,56
+2026-11-19,1176,"Painted electric ray",3,49,25
+2026-11-19,1177,"Evermannella Balbo",3,72,8
+2026-11-19,1178,"Unicorn Crestfish",5,226,-20
+2026-11-19,1179,"Azul Peacock Bass",3,35,-27
+2026-11-19,1180,"Red Wolf Fish",4,145,14
+2026-11-19,1181,"Spotted Tiger Shovelnose Catfish",4,108,62
+2026-11-19,1182,"Tadpole Snailfish",5,590,-32
+2026-11-19,1183,"Midwater Eelpout",4,327,-7
+2026-11-19,1184,"Mariana Snailfish",5,783,17
+2026-11-19,1185,"Dwarf Moray",4,154,31
+2026-11-19,1186,"Smoothtail Mobula",5,390,-24
+2026-11-19,1187,"Taylor's Inflator Filefish",3,27,-15
+2026-11-19,1188,"Shortdorsal Cutthroat Eel",5,1246,23
+2026-11-19,1189,"Freshwater Moray",4,225,-29
+2026-11-19,1190,"Grammonus Yunokawai",5,421,-13
+2026-11-19,1191,"Green Birdmouth Wrasse",4,66,-39
+2026-11-19,1192,"Red Rainbowfish",5,344,45
+2026-11-19,1193,"Angler Snake Eel",4,351,7
+2026-11-19,1194,"Birdbeak Dogfish",4,75,-24
+2026-11-19,1195,"Barnards Lanternfish",3,37,-29
+2026-11-19,1196,"Arrowhead Soapfish",3,50,22
+2026-11-19,1197,"Fluorescing Goatfish",5,298,5
+2026-11-19,1198,"Golden Gar",5,437,-7
+2026-11-19,1199,"Bluestripe Pipefish",3,24,-32
+2026-11-19,1200,"Sulawesi Coelacanth",5,268,-22
+2026-11-19,1201,"African Mottled Eel",5,1175,79
+2026-11-19,1202,"Blue Panchax",2,19,23
+2026-11-19,1203,"Crocodile-tooth Pipefish",4,94,6

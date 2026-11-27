@@ -4911,3 +4911,99 @@ date,id,name,stars,price,change
 2026-11-26,1201,"African Mottled Eel",5,1439,40
 2026-11-26,1202,"Blue Panchax",2,20,12
 2026-11-26,1203,"Crocodile-tooth Pipefish",4,154,8
+2026-11-27,14,"Piranha",4,160,20
+2026-11-27,15,"Arapaima",5,442,-6
+2026-11-27,16,"Barbel",3,22,-55
+2026-11-27,17,"Bitterling",2,12,-38
+2026-11-27,18,"Largemouth Bass",1,6,61
+2026-11-27,20,"Bluegill",1,3,-1
+2026-11-27,22,"Blue Marlin",5,658,-39
+2026-11-27,28,"Common Carp",2,20,61
+2026-11-27,32,"Wels Catfish",4,132,7
+2026-11-27,33,"Beluga Sturgeon",5,607,16
+2026-11-27,34,"Arctic Char",3,67,55
+2026-11-27,35,"Cherry Salmon",2,21,-35
+2026-11-27,36,"Coelacanth",5,334,-15
+2026-11-27,37,"Crucian Carp",1,3,-48
+2026-11-27,38,"Dab",1,10,-40
+2026-11-27,40,"Common Dace",1,4,-30
+2026-11-27,41,"Golden Dorado",5,489,37
+2026-11-27,42,"Eel",3,50,9
+2026-11-27,43,"Freshwater Goby",1,20,6
+2026-11-27,44,"Gar",4,124,23
+2026-11-27,45,"Giant Snakehead",3,104,32
+2026-11-27,46,"Goldcarp",5,322,-5
+2026-11-27,47,"Hammerhead Shark",4,387,76
+2026-11-27,48,"Horse Mackerel",1,10,11
+2026-11-27,49,"Chinook Salmon",3,114,31
+2026-11-27,50,"Ocean Sunfish",4,71,-27
+2026-11-27,51,"Yellow Perch",1,3,-3
+2026-11-27,52,"Atlantic Bluefin Tuna",4,109,-22
+2026-11-27,54,"Olive Flounder",2,12,0
+2026-11-27,55,"Pale Chub",1,6,-15
+2026-11-27,56,"Pond Smelt",3,37,32
+2026-11-27,57,"Puffer Fish",1,4,16
+2026-11-27,58,"Rainbow Trout",2,13,-9
+2026-11-27,59,"Red Snapper",2,11,-6
+2026-11-27,60,"Common Salmon",1,4,@{loc=11; bait=12; chance=13; luck=13}
+2026-11-27,61,"Sea Bass",1,6,82
+2026-11-27,62,"Shark",5,514,13
+2026-11-27,63,"Pike",4,125,-21
+2026-11-27,64,"Bream",2,17,44
+2026-11-27,65,"Orangespotted Sunfish",4,109,-25
+2026-11-27,66,"Tench",2,29,-19
+2026-11-27,67,"Black Acara",3,36,-11
+2026-11-27,68,"Spotted Sorubim",3,28,-12
+2026-11-27,69,"Electric Eel",5,1550,49
+2026-11-27,70,"Blackfin Pearlfish",2,10,-32
+2026-11-27,71,"Marbled Headstander",1,5,-8
+2026-11-27,72,"Pike Cichlid",1,4,-7
+2026-11-27,73,"Sergeant Major",2,9,-34
+2026-11-27,74,"Honeycomb Cowfish",3,40,-23
+2026-11-27,75,"Barracuda",4,150,-6
+2026-11-27,76,"Tarpon Atlantic",4,257,-13
+2026-11-27,77,"Rainbow Runner",3,99,-22
+2026-11-27,80,"Pacuma Toadfish",4,134,85
+2026-11-27,81,"Leerfish",3,52,52
+2026-11-27,82,"Coral Hind",2,16,1
+2026-11-27,83,"Sardinella",1,5,-7
+2026-11-27,84,"Kaluga Sturgeon",5,1079,46
+2026-11-27,85,"Queen Angelfish",3,42,78
+2026-11-27,86,"Blue Striped Grunt",1,4,-37
+2026-11-27,87,"Nassau Grouper",3,41,-22
+2026-11-27,88,"French Angelfish",4,139,63
+2026-11-27,89,"Wenchman",2,29,-40
+2026-11-27,90,"Sargassum Triggerfish",3,42,19
+2026-11-27,91,"Pearly Razorfish",2,17,34
+2026-11-27,92,"Bigeye Scad",1,4,47
+2026-11-27,93,"Ariidae",4,196,36
+2026-11-27,94,"Livingston's Cichlid",2,25,-1
+2026-11-27,95,"Giant Gourami",4,161,-40
+2026-11-27,96,"Golden Arowana",4,126,-18
+2026-11-27,97,"North African Catfish",3,45,-28
+2026-11-27,98,"Elongate Tigerfish",3,63,-17
+2026-11-27,99,"Cornish Jack",5,639,4
+2026-11-27,100,"Nile Tilapia",1,8,45
+2026-11-27,101,"African Butter Catfish",2,14,-54
+2026-11-27,102,"Clownfish",2,12,-29
+2026-11-27,105,"Common Rudd",1,5,-15
+2026-11-27,107,"Nile Perch",4,151,44
+2026-11-27,108,"Walleye",3,52,-19
+2026-11-27,109,"Peacock Bass",3,30,-18
+2026-11-27,110,"Largemouth Yellowfish",3,132,53
+2026-11-27,111,"Freshwater Drum",3,50,-8
+2026-11-27,112,"Clown Featherback",3,54,-42
+2026-11-27,113,"Chinese False Gudgeon",1,8,-20
+2026-11-27,114,"Horseface Loach",2,23,-15
+2026-11-27,115,"Chinese Sturgeon",4,164,-46
+2026-11-27,116,"Catla",2,36,112
+2026-11-27,117,"Elephantfish",4,477,72
+2026-11-27,118,"Opah",4,115,-10
+2026-11-27,119,"Silver Scabbardfish",4,113,27
+2026-11-27,120,"Thicklip Grey Mullet",2,9,-37
+2026-11-27,121,"Atlantic Herring",1,7,29
+2026-11-27,122,"Tope Shark",3,27,15
+2026-11-27,123,"European Conger",5,268,-37
+2026-11-27,124,"Lesser Weever",1,6,6
+2026-11-27,125,"Haddock",2,17,60
+2026-11-27,126,"Goldsilk Bream",2,50,-15
